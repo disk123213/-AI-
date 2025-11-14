@@ -1,0 +1,22 @@
+# 基础依赖
+pygame==2.5.2
+pyodbc==5.0.1
+configparser==5.3.0
+numpy==1.26.3
+pandas==2.2.0
+pickle-mixin==1.0.2
+
+# AI依赖（Torch+CUDA 12.2）
+torch==2.1.2+cu121
+torchvision==0.16.2+cu121
+torchaudio==2.1.2+cu121
+
+# 服务器依赖
+socket==0.0.1
+threading==0.1.0
+queue==0.1.1
+
+# 开发依赖
+pytest==7.4.4
+flake8==6.0.0
+black==24.1.1
